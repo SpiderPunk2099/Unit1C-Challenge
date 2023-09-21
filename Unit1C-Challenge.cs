@@ -10,7 +10,7 @@ Main class Program
             do
             {
                 Console.WriteLine("Guess the number between 1 to 10");
-                
+
                 if (guess > number)
                 {
                     Console.WriteLine("you guessed to high");
@@ -29,3 +29,21 @@ Main class Program
             return 7;
         }
     }
+
+string[] favFruit = {"Apple", "Tomato", "Passion Fruit"};
+foreach (string i in favFruit) 
+{
+  Console.WriteLine(i);
+  if (favFruit = "Apple")
+    {
+        Console.WriteLine("That's no ones favorite fruit dude.");
+    }
+        else if (favFruit = "Tomato")
+        {
+            Console.WriteLine("Yes, that may be a fruit, but no one thinks of it that way. Disgusting.");
+        }
+            else
+            {
+                Console.WriteLine("Yes, passion fruit is soooo good!");
+            }
+}
